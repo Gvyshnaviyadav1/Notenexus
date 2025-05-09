@@ -1,0 +1,51 @@
+{
+    "alice": {
+        "password": "alice123",
+        "tasks": [
+            {
+                "desc": "exam",
+                "date": "2025-05-05",
+                "completed": false
+            }
+        ],
+        "messages": [],
+        "diary_entries": [
+            "alice_20250507_011604.txt",
+            "alice_20250508_222103.txt",
+            "alice_20250508_230758.txt",
+            "alice_20250509_083742.txt"
+        ],
+        "important_dates": {
+            "2025-05-09": [
+                "prok"
+            ]
+        }
+    },
+    "bob": {
+        "password": "bob123",
+        "tasks": [],
+        "messages": [],
+        "diary_entries": [],
+        "important_dates": {},
+        "shared_entries": [
+            {
+                "owner": "alice",
+                "filename": "alice_20250509_083742.txt"
+            }
+        ]
+    },
+    "carol": {
+        "password": "carol123",
+        "tasks": [],
+        "messages": [],
+        "diary_entries": [],
+        "important_dates": {}
+    },
+    "dave": {
+        "password": "dave123",
+        "tasks": [],
+        "messages": [],
+        "diary_entries": [],
+        "important_dates": {}
+    }
+}
