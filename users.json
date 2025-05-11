@@ -27,7 +27,7 @@
                 "prok",
                 "hyd"
             ]
-        },
+        }
        
     },
     "bob": {
@@ -45,7 +45,7 @@
                 "owner": "alice",
                 "filename": "entries\\alice_20250507_011604.txt"
             }
-        ],
+        ]
         
     },
     "carol": {
