@@ -429,7 +429,7 @@ def show_calendar(important_dates, due_tasks):
     root.bind('q', lambda e: root.destroy())
     root.mainloop()
 
-def start_server(host='0.0.0.0', port=1206):
+def start_server(host='0.0.0.0', port=1207):
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((host, port))
     server.listen()
