@@ -6,20 +6,29 @@
                 "desc": "exam",
                 "date": "2025-05-05",
                 "completed": false
+            },
+            {
+                "desc": "project",
+                "date": "2025-05-17",
+                "completed": false
             }
         ],
         "messages": [],
         "diary_entries": [
-            "alice_20250507_011604.txt",
-            "alice_20250508_222103.txt",
-            "alice_20250508_230758.txt",
-            "alice_20250509_083742.txt"
+            "entries\\alice_20250507_011604.txt",
+            "entries\\alice_20250508_222103.txt",
+            "entries\\alice_20250508_230758.txt",
+            "entries\\alice_20250509_083742.txt",
+            "entries\\alice_entry1.txt",
+            "entries\\alice_entry2.txt"
         ],
         "important_dates": {
             "2025-05-09": [
-                "prok"
+                "prok",
+                "hyd"
             ]
-        }
+        },
+       
     },
     "bob": {
         "password": "bob123",
@@ -30,22 +39,35 @@
         "shared_entries": [
             {
                 "owner": "alice",
-                "filename": "alice_20250509_083742.txt"
+                "filename": "entries\\alice_20250509_083742.txt"
+            },
+            {
+                "owner": "alice",
+                "filename": "entries\\alice_20250507_011604.txt"
             }
-        ]
+        ],
+        
     },
     "carol": {
         "password": "carol123",
         "tasks": [],
         "messages": [],
         "diary_entries": [],
-        "important_dates": {}
+        "important_dates": {},
+        
+        "shared_entries": [
+            {
+                "owner": "alice",
+                "filename": "entries\\alice_entry2.txt"
+            }
+        ]
     },
     "dave": {
         "password": "dave123",
         "tasks": [],
         "messages": [],
         "diary_entries": [],
-        "important_dates": {}
+        "important_dates": {},
+    
     }
 }
