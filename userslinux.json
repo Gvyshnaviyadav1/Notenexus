@@ -1,0 +1,77 @@
+{
+    "alice": {
+        "password": "alice123",
+        "tasks": [
+            {
+                "desc": "exam",
+                "date": "2025-05-05",
+                "completed": false
+            },
+            {
+                "desc": "project",
+                "date": "2025-05-17",
+                "completed": false
+            }
+        ],
+        "messages": [],
+        "diary_entries": [
+            "entries/alice_20250507_011604.txt",
+            "entries/alice_20250508_222103.txt",
+            "entries/alice_20250508_230758.txt",
+            "entries/alice_20250509_083742.txt",
+            "entries/alice_entry1.txt",
+            "entries/alice_entry2.txt",
+            "entries/alice_entry3.txt"
+        ],
+        "important_dates": {
+            "2025-05-09": [
+                "prok",
+                "hyd"
+            ],
+            "2025-05-17": [
+                "friend birthday"
+            ]
+        }
+    },
+    "bob": {
+        "password": "bob123",
+        "tasks": [],
+        "messages": [
+            "From alice: hi bob",
+            "__SHARED__:alice:entries/alice_entry2.txt",
+            "__SHARED__:alice:entries/alice_entry3.txt"
+        ],
+        "diary_entries": [],
+        "important_dates": {},
+        "shared_entries": [
+            {
+                "owner": "alice",
+                "filename": "entries/alice_20250509_083742.txt"
+            },
+            {
+                "owner": "alice",
+                "filename": "entries/alice_20250507_011604.txt"
+            }
+        ]
+    },
+    "carol": {
+        "password": "carol123",
+        "tasks": [],
+        "messages": [],
+        "diary_entries": [],
+        "important_dates": {},
+        "shared_entries": [
+            {
+                "owner": "alice",
+                "filename": "entries/alice_entry2.txt"
+            }
+        ]
+    },
+    "dave": {
+        "password": "dave123",
+        "tasks": [],
+        "messages": [],
+        "diary_entries": [],
+        "important_dates": {}
+    }
+}
