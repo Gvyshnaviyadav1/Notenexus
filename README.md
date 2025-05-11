@@ -3,6 +3,3 @@
 Otherwise, run <code>server.py</code> and <code>client.py</code>.</p>
 <p>For dry run please use username and password as mentioned in json file or at top of server code{(username :password)=>alice:alice123;  bob:bob123,  carol:carol123}</p>
 <p>video files for the trial run and editing are present under video directory</p>
-<video src="" controls width="600">
-  Your browser does not support the video tag.
-</video>
