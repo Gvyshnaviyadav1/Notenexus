@@ -1,5 +1,6 @@
 <p><strong>Note:</strong> Please install <code>tkinter</code> if you don't have it to view the calendar.</p>
-<p><strong> For Linux:</strong>sudo apt install python3-tk</p>
+<p><strong> For Linux :</strong>sudo apt install python3-tk</p>
+<p><strong>For Mac :</strong>brew install python-tk</p>
 <p>pip3 install tkcalendar</p>
 <p>If you're running it on <strong>Linux Subsystem</strong>, use <code>serverlinux.py</code> and the same <code>client.py</code> file.<br>
 Otherwise, run <code>server.py</code> and <code>client.py</code>.</p>
