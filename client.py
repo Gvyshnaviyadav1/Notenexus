@@ -10,7 +10,7 @@ def listen_for_messages(sock):
             print("\nDisconnected from server.")
             break
 
-def start_client(host='localhost', port=1206):
+def start_client(host='localhost', port=1207):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
         sock.connect((host, port))
